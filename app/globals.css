@@ -528,3 +528,17 @@ button { font: inherit; }
   .industry-cta-mark span:nth-child(2) { inset: 16px; }
   .industry-cta-mark span:nth-child(3) { inset: 25px; }
 }
+
+/* Fixed site chrome and persistent WhatsApp contact action */
+body { margin: 116px 0 0; }
+.site-chrome { position: fixed; inset: 0 0 auto; z-index: 50; box-shadow: 0 5px 18px #0b1c3208; }
+.site-header { position: relative; }
+.whatsapp-float { position: fixed; z-index: 40; right: 25px; bottom: 25px; width: 58px; height: 58px; display: grid; place-items: center; border-radius: 50%; color: #fff; background: #20c768; box-shadow: 0 8px 24px #092a4733, 0 0 0 5px #20c76824; transition: transform .22s ease, box-shadow .22s ease, background .22s ease; }
+.whatsapp-float:hover { transform: translateY(-3px) scale(1.04); background: #17b85b; box-shadow: 0 12px 28px #092a4740, 0 0 0 7px #20c76824; }
+.whatsapp-float:focus-visible { outline: 3px solid #082e64; outline-offset: 4px; }
+.whatsapp-float svg { width: 31px; height: 31px; fill: currentColor; }
+@media(max-width:700px) {
+  body { margin-top: 99px; }
+  .whatsapp-float { width: 52px; height: 52px; right: 17px; bottom: 18px; }
+  .whatsapp-float svg { width: 28px; height: 28px; }
+}
