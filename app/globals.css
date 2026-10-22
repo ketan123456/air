@@ -48,6 +48,7 @@ button { font: inherit; }
 .flow-symbol { width: 40%; aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle,#1599f438,transparent 68%); color: #6bc2ff; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 16px; }
 .flow-symbol span { font: 8px var(--mono); letter-spacing: .18em; text-align: center; color: #b1c9df; line-height: 1.5; }
 .hero-tag { position: absolute; font: 8px var(--mono); letter-spacing: .12em; color: #bad1e5; }
+.ps-0{padding: 0px !important;}
 .tag-a { top: 12%; left: 7%; }
 .tag-b { right: 0; top: 45%; }
 .tag-c { bottom: 8%; left: 17%; }

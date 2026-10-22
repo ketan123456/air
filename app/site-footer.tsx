@@ -6,7 +6,7 @@ export default function SiteFooter() {
       <div className="footer-main">
         <div className="footer-brand">
           <img src="/airox-logo.png" alt="Airox Ultra Pneumatics" />
-          <p>Compressed air equipment and practical support for industry.</p>
+          <p className="ps-0">Compressed air equipment and practical support for industry.</p>
           <span className="gst">GSTIN / UIN&nbsp; 07BWVPN0302C1ZS</span>
         </div>
         <div>
